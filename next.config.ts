@@ -37,6 +37,9 @@ const nextConfig: NextConfig = {
   ...(process.env.WATCH_POLL_MS
     ? { watchOptions: { pollIntervalMs: Number(process.env.WATCH_POLL_MS) } }
     : {}),
+  // Self-contained server for the production Docker image (see Dockerfile).
+  // Only enabled there, so Vercel builds the project its usual way.
+  ...(process.env.NEXT_OUTPUT_STANDALONE ? { output: "standalone" as const } : {}),
   poweredByHeader: false,
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];

@@ -20,6 +20,19 @@ App at http://localhost:3000. Edits to your files hot-reload inside the containe
 If you add or update an npm package: `docker compose down -v && docker compose up --build`
 (`-v` resets the `node_modules` volume so it picks up the new install).
 
+## Docker (production)
+
+Not needed for Vercel (Vercel builds straight from the Git repository).
+Useful to test the real production build locally or to deploy on any Docker host.
+
+```bash
+docker compose -f docker-compose.prod.yml up -d --build   # http://localhost:8080
+docker compose -f docker-compose.prod.yml down
+```
+
+Multi-stage image (~300 MB) running Next.js `standalone` output as the non-root `node` user,
+read-only filesystem, with a health check. It runs alongside the development container.
+
 ## Where things live
 
 | What | Where |

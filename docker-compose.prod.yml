@@ -1,0 +1,23 @@
+# Production build, run locally:
+#   docker compose -f docker-compose.prod.yml up --build
+# Then open http://localhost:8080
+# Own project name so it runs alongside the development container.
+name: learningpanama-prod
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      # Only reachable from this computer. Change to "8080:3000" on a real server.
+      - "127.0.0.1:8080:3000"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /app/.next/cache
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
