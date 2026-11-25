@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "LearningPanama – Learn English",
+    "description": "Free English lessons with videos: pronunciation, writing, listening, speaking and grammar. Made for Spanish speakers."
+  },
+  "nav": {
+    "home": "Home",
+    "learn": "Lessons",
+    "resources": "Resources",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Menu",
+    "switchLanguage": "Español"
+  },
+  "home": {
+    "badge": "Learn English step by step",
+    "title": "Speak English with confidence",
+    "subtitle": "Video lessons and practical guides on pronunciation, writing, listening and more — explained clearly, in English and Spanish.",
+    "ctaPrimary": "Start learning",
+    "ctaSecondary": "Browse resources",
+    "sectionsTitle": "What do you want to improve today?",
+    "sectionsSubtitle": "Pick a skill and jump into the lessons.",
+    "featuredTitle": "Featured lessons",
+    "howTitle": "How it works",
+    "steps": [
+      {
+        "title": "Choose a skill",
+        "text": "Pronunciation, writing, listening, speaking or grammar."
+      },
+      {
+        "title": "Watch and read",
+        "text": "Short videos with clear explanations and key points."
+      },
+      {
+        "title": "Practice every day",
+        "text": "Use the practice tips and extra resources to make it stick."
+      }
+    ],
+    "bandTitle": "Have a question or a topic request?",
+    "bandText": "Tell us what you would like to learn next.",
+    "bandCta": "Contact us"
+  },
+  "learn": {
+    "title": "Lessons",
+    "subtitle": "Choose a skill to start.",
+    "lessonsCount": "lessons",
+    "lessonCountOne": "lesson",
+    "start": "Open lesson",
+    "back": "Back",
+    "backToLessons": "All lessons",
+    "level": "Level",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "videoSoon": "Video coming soon",
+    "videoSoonText": "This lesson's video is being recorded. Read the guide below in the meantime.",
+    "keyPoints": "Key points",
+    "practice": "Practice",
+    "moreInSection": "More in this section"
+  },
+  "resources": {
+    "title": "Useful resources",
+    "subtitle": "Free tools and websites that complement the lessons.",
+    "open": "Visit site"
+  },
+  "about": {
+    "title": "About LearningPanama",
+    "paragraphs": [
+      "LearningPanama is a free space to learn English, created for Spanish speakers who want clear explanations and real practice.",
+      "Every lesson combines a short video with a written guide so you can learn at your own pace: watch, read, pause and repeat.",
+      "The site is available in English and Spanish, so you can understand the explanations while you train your English."
+    ],
+    "valuesTitle": "What you will find here",
+    "values": [
+      "Pronunciation lessons focused on sounds that are hard for Spanish speakers",
+      "Writing guides, from simple sentences to full paragraphs",
+      "Listening strategies and practice material",
+      "Useful resources that go beyond the lessons"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Write to us with questions, suggestions or topics you want to see.",
+    "name": "Your name",
+    "email": "Your email",
+    "message": "Your message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thanks! Your message was sent.",
+    "error": "Something went wrong. Please try again later.",
+    "invalid": "Please check the form and try again.",
+    "tooMany": "Too many messages. Please wait a few minutes."
+  },
+  "footer": {
+    "tagline": "Learn English, one lesson at a time.",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist.",
+    "cta": "Go home"
+  }
+}

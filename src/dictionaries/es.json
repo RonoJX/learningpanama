@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "LearningPanama – Aprende inglés",
+    "description": "Clases de inglés gratis con videos: pronunciación, escritura, listening, speaking y gramática. Pensado para hispanohablantes."
+  },
+  "nav": {
+    "home": "Inicio",
+    "learn": "Lecciones",
+    "resources": "Recursos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "menu": "Menú",
+    "switchLanguage": "English"
+  },
+  "home": {
+    "badge": "Aprende inglés paso a paso",
+    "title": "Habla inglés con confianza",
+    "subtitle": "Lecciones en video y guías prácticas de pronunciación, escritura, listening y más, explicadas con claridad en inglés y español.",
+    "ctaPrimary": "Empezar a aprender",
+    "ctaSecondary": "Ver recursos",
+    "sectionsTitle": "¿Qué quieres mejorar hoy?",
+    "sectionsSubtitle": "Elige una habilidad y entra a las lecciones.",
+    "featuredTitle": "Lecciones destacadas",
+    "howTitle": "Cómo funciona",
+    "steps": [
+      {
+        "title": "Elige una habilidad",
+        "text": "Pronunciación, escritura, listening, speaking o gramática."
+      },
+      {
+        "title": "Mira y lee",
+        "text": "Videos cortos con explicaciones claras y puntos clave."
+      },
+      {
+        "title": "Practica todos los días",
+        "text": "Usa los consejos de práctica y los recursos extra para que se quede."
+      }
+    ],
+    "bandTitle": "¿Tienes una pregunta o quieres sugerir un tema?",
+    "bandText": "Cuéntanos qué te gustaría aprender después.",
+    "bandCta": "Contáctanos"
+  },
+  "learn": {
+    "title": "Lecciones",
+    "subtitle": "Elige una habilidad para empezar.",
+    "lessonsCount": "lecciones",
+    "lessonCountOne": "lección",
+    "start": "Abrir lección",
+    "back": "Volver",
+    "backToLessons": "Todas las lecciones",
+    "level": "Nivel",
+    "levels": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
+    "videoSoon": "Video próximamente",
+    "videoSoonText": "El video de esta lección se está grabando. Mientras tanto, lee la guía de abajo.",
+    "keyPoints": "Puntos clave",
+    "practice": "Práctica",
+    "moreInSection": "Más en esta sección"
+  },
+  "resources": {
+    "title": "Recursos útiles",
+    "subtitle": "Herramientas y sitios gratuitos que complementan las lecciones.",
+    "open": "Visitar sitio"
+  },
+  "about": {
+    "title": "Acerca de LearningPanama",
+    "paragraphs": [
+      "LearningPanama es un espacio gratuito para aprender inglés, creado para hispanohablantes que quieren explicaciones claras y práctica real.",
+      "Cada lección combina un video corto con una guía escrita para que aprendas a tu ritmo: mira, lee, pausa y repite.",
+      "El sitio está en inglés y español, así entiendes las explicaciones mientras entrenas tu inglés."
+    ],
+    "valuesTitle": "Lo que encontrarás aquí",
+    "values": [
+      "Lecciones de pronunciación enfocadas en los sonidos difíciles para hispanohablantes",
+      "Guías de escritura, desde oraciones simples hasta párrafos completos",
+      "Estrategias y material de práctica de listening",
+      "Recursos útiles que van más allá de las lecciones"
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Escríbenos con preguntas, sugerencias o temas que quieras ver.",
+    "name": "Tu nombre",
+    "email": "Tu correo",
+    "message": "Tu mensaje",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Tu mensaje fue enviado.",
+    "error": "Algo salió mal. Inténtalo de nuevo más tarde.",
+    "invalid": "Revisa el formulario e inténtalo de nuevo.",
+    "tooMany": "Demasiados mensajes. Espera unos minutos."
+  },
+  "footer": {
+    "tagline": "Aprende inglés, una lección a la vez.",
+    "rights": "Todos los derechos reservados."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La página que buscas no existe.",
+    "cta": "Ir al inicio"
+  }
+}
