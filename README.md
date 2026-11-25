@@ -28,14 +28,8 @@ If you add or update an npm package: `docker compose down -v && docker compose u
 | Lessons, sections | `src/content/lessons.ts` |
 | Resource links | `src/content/resources.ts` |
 | Brand colors | `src/app/globals.css` (`--brand`, `--accent`) |
-| Contact endpoint | `src/app/api/contact/route.ts` |
 
 ## Add a lesson
 
 Add an object to `lessons` in `src/content/lessons.ts` (title, summary, body, keyPoints and practice in both languages).
 Put the YouTube id in `videoId` (the part after `v=`); with `null` the page shows "Video coming soon".
-
-## Contact form email
-
-Copy `.env.example` to `.env.local` and fill in a [Resend](https://resend.com) key.
-Without it, messages are only logged in development and the endpoint returns 503 in production.

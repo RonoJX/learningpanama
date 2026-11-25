@@ -4,15 +4,13 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     ports:
-      - "3000:3000"
+      # Only reachable from this computer, not from other devices on the network.
+      - "127.0.0.1:3000:3000"
     environment:
       # File events from a Windows bind mount don't reach the container reliably,
       # so Next.js (Turbopack) polls for changes. See next.config.ts.
       - WATCH_POLL_MS=1000
       - NEXT_TELEMETRY_DISABLED=1
-    env_file:
-      - path: .env.local
-        required: false
     volumes:
       # Your source code, live-synced into the container.
       - .:/app

@@ -1,4 +1,5 @@
 import type { Dictionary } from "@/lib/i18n";
+import { PlayIcon } from "./SectionIcon";
 
 export function VideoEmbed({
   videoId,
@@ -11,11 +12,11 @@ export function VideoEmbed({
 }) {
   if (!videoId) {
     return (
-      <div className="grid aspect-video place-items-center rounded-2xl border border-dashed border-brand/30 bg-brand/5 p-6 text-center">
+      <div className="grid aspect-video place-items-center rounded-[18px] border border-dashed border-brand/30 bg-brand/5 p-6 text-center">
         <div>
-          <p className="text-4xl" aria-hidden>
-            🎬
-          </p>
+          <span className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-white text-brand">
+            <PlayIcon size={22} />
+          </span>
           <p className="mt-2 text-lg font-semibold text-brand">{labels.videoSoon}</p>
           <p className="mx-auto mt-1 max-w-md text-sm text-muted">{labels.videoSoonText}</p>
         </div>
@@ -24,7 +25,7 @@ export function VideoEmbed({
   }
 
   return (
-    <div className="aspect-video overflow-hidden rounded-2xl border border-border bg-black shadow-sm">
+    <div className="aspect-video overflow-hidden rounded-[18px] border border-border bg-black shadow-sm">
       <iframe
         className="h-full w-full"
         src={`https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}`}

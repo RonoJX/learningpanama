@@ -1,14 +1,13 @@
 {
   "meta": {
     "title": "LearningPanama – Learn English",
-    "description": "Free English lessons with videos: pronunciation, writing, listening, speaking and grammar. Made for Spanish speakers."
+    "description": "Free English lessons with videos and audio: pronunciation, writing, listening, speaking, grammar and vocabulary. Made for Spanish speakers."
   },
   "nav": {
     "home": "Home",
     "learn": "Lessons",
     "resources": "Resources",
     "about": "About",
-    "contact": "Contact",
     "menu": "Menu",
     "switchLanguage": "Español"
   },
@@ -25,7 +24,7 @@
     "steps": [
       {
         "title": "Choose a skill",
-        "text": "Pronunciation, writing, listening, speaking or grammar."
+        "text": "Pronunciation, writing, listening, speaking, grammar or vocabulary."
       },
       {
         "title": "Watch and read",
@@ -36,9 +35,11 @@
         "text": "Use the practice tips and extra resources to make it stick."
       }
     ],
-    "bandTitle": "Have a question or a topic request?",
-    "bandText": "Tell us what you would like to learn next.",
-    "bandCta": "Contact us"
+    "statSkills": "skills",
+    "statFree": "Free",
+    "statBilingual": "English and Spanish",
+    "seeLessons": "See lessons",
+    "allLessons": "All lessons"
   },
   "learn": {
     "title": "Lessons",
@@ -58,7 +59,14 @@
     "videoSoonText": "This lesson's video is being recorded. Read the guide below in the meantime.",
     "keyPoints": "Key points",
     "practice": "Practice",
-    "moreInSection": "More in this section"
+    "moreInSection": "More in this section",
+    "wordsTitle": "Listen and repeat",
+    "wordsHint": "Press ▶ to hear it at normal speed or 0.5× to hear it slowly, then say it out loud.",
+    "play": "Listen",
+    "playSlow": "Listen slowly",
+    "noAudio": "Your browser cannot play the audio. Read the words out loud.",
+    "prev": "Previous lesson",
+    "next": "Next lesson"
   },
   "resources": {
     "title": "Useful resources",
@@ -77,21 +85,9 @@
       "Pronunciation lessons focused on sounds that are hard for Spanish speakers",
       "Writing guides, from simple sentences to full paragraphs",
       "Listening strategies and practice material",
-      "Useful resources that go beyond the lessons"
+      "Useful resources that go beyond the lessons",
+      "Vocabulary by topic (work, travel, shopping) with audio to hear every word"
     ]
-  },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Write to us with questions, suggestions or topics you want to see.",
-    "name": "Your name",
-    "email": "Your email",
-    "message": "Your message",
-    "send": "Send message",
-    "sending": "Sending…",
-    "success": "Thanks! Your message was sent.",
-    "error": "Something went wrong. Please try again later.",
-    "invalid": "Please check the form and try again.",
-    "tooMany": "Too many messages. Please wait a few minutes."
   },
   "footer": {
     "tagline": "Learn English, one lesson at a time.",

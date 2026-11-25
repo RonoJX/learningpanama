@@ -1,14 +1,13 @@
 {
   "meta": {
     "title": "LearningPanama – Aprende inglés",
-    "description": "Clases de inglés gratis con videos: pronunciación, escritura, listening, speaking y gramática. Pensado para hispanohablantes."
+    "description": "Clases de inglés gratis con videos y audio: pronunciación, escritura, listening, speaking, gramática y vocabulario. Pensado para hispanohablantes."
   },
   "nav": {
     "home": "Inicio",
     "learn": "Lecciones",
     "resources": "Recursos",
     "about": "Acerca de",
-    "contact": "Contacto",
     "menu": "Menú",
     "switchLanguage": "English"
   },
@@ -25,7 +24,7 @@
     "steps": [
       {
         "title": "Elige una habilidad",
-        "text": "Pronunciación, escritura, listening, speaking o gramática."
+        "text": "Pronunciación, escritura, listening, speaking, gramática o vocabulario."
       },
       {
         "title": "Mira y lee",
@@ -36,9 +35,11 @@
         "text": "Usa los consejos de práctica y los recursos extra para que se quede."
       }
     ],
-    "bandTitle": "¿Tienes una pregunta o quieres sugerir un tema?",
-    "bandText": "Cuéntanos qué te gustaría aprender después.",
-    "bandCta": "Contáctanos"
+    "statSkills": "habilidades",
+    "statFree": "Gratis",
+    "statBilingual": "Inglés y español",
+    "seeLessons": "Ver lecciones",
+    "allLessons": "Todas las lecciones"
   },
   "learn": {
     "title": "Lecciones",
@@ -58,7 +59,14 @@
     "videoSoonText": "El video de esta lección se está grabando. Mientras tanto, lee la guía de abajo.",
     "keyPoints": "Puntos clave",
     "practice": "Práctica",
-    "moreInSection": "Más en esta sección"
+    "moreInSection": "Más en esta sección",
+    "wordsTitle": "Escucha y repite",
+    "wordsHint": "Pulsa ▶ para oírlo a velocidad normal o 0.5× para oírlo despacio, y luego dilo en voz alta.",
+    "play": "Escuchar",
+    "playSlow": "Escuchar despacio",
+    "noAudio": "Tu navegador no puede reproducir el audio. Lee las palabras en voz alta.",
+    "prev": "Lección anterior",
+    "next": "Lección siguiente"
   },
   "resources": {
     "title": "Recursos útiles",
@@ -77,21 +85,9 @@
       "Lecciones de pronunciación enfocadas en los sonidos difíciles para hispanohablantes",
       "Guías de escritura, desde oraciones simples hasta párrafos completos",
       "Estrategias y material de práctica de listening",
-      "Recursos útiles que van más allá de las lecciones"
+      "Recursos útiles que van más allá de las lecciones",
+      "Vocabulario por temas (trabajo, viajes, compras) con audio para escuchar cada palabra"
     ]
-  },
-  "contact": {
-    "title": "Contacto",
-    "subtitle": "Escríbenos con preguntas, sugerencias o temas que quieras ver.",
-    "name": "Tu nombre",
-    "email": "Tu correo",
-    "message": "Tu mensaje",
-    "send": "Enviar mensaje",
-    "sending": "Enviando…",
-    "success": "¡Gracias! Tu mensaje fue enviado.",
-    "error": "Algo salió mal. Inténtalo de nuevo más tarde.",
-    "invalid": "Revisa el formulario e inténtalo de nuevo.",
-    "tooMany": "Demasiados mensajes. Espera unos minutos."
   },
   "footer": {
     "tagline": "Aprende inglés, una lección a la vez.",
