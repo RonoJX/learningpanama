@@ -32,11 +32,6 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   /* config options here */
-  // Docker on Windows: bind mounts don't emit file events, so poll for changes.
-  // Only enabled when WATCH_POLL_MS is set (see docker-compose.yml).
-  ...(process.env.WATCH_POLL_MS
-    ? { watchOptions: { pollIntervalMs: Number(process.env.WATCH_POLL_MS) } }
-    : {}),
   // Self-contained server for the production Docker image (see Dockerfile).
   // Only enabled there, so Vercel builds the project its usual way.
   ...(process.env.NEXT_OUTPUT_STANDALONE ? { output: "standalone" as const } : {}),

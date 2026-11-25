@@ -2,7 +2,7 @@
 # Not used by Vercel (Vercel builds from the Git repository). Use it to test the
 # production build locally or to deploy on any Docker host.
 #
-#   docker compose -f docker-compose.prod.yml up --build
+#   docker compose up -d --build
 
 # ---- 1. Dependencies ---------------------------------------------------------
 FROM node:24-alpine AS deps
